@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Books and Databases</title>
+  <script src="vendors/jquery.js" charset="utf-8"></script>
+  <script src="scripts/client.js" charset="utf-8"></script>
+</head>
+<body>
+  <h1>Book Shelf</h1>
+  <form id="newBookForm">
+    <input name="title" placeholder="Title">
+    <input name="author" placeholder="Author">
+    <input name="edition" placeholder="Edition">
+    <input name="publisher" placeholder="Publisher">
+    <button type="submit" id="newBookButton">Click here to add the book!</button>
+  </form>
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Edition</th>
+        <th>Publisher</th>
+        <th>Delete</th>
+        <th>Save</th>
+      </tr>
+    </thead>
+    <tbody id="bookShelf">
+    </tbody>
+  </table>
+</body>
+</html>
